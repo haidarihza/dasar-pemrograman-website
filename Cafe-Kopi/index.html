@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cafe Kopi</title>
+
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+			integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<!-- Favicon  -->
+		<link
+			id="favicon"
+			rel="shortcut icon"
+			href="assets/images/logo-only-cafe-kopi.png"
+			type="image/x-png"
+		/>
+
+		<link rel="stylesheet" href="assets/styles/style.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<img
+					src="assets/images/logo-cafe-kopi.png"
+					alt="Logo Cafe Kopi"
+					class="logo"
+				/>
+        <a id="menu-toggle" aria-label="Toggle Menu" href="javascript:void(0);" class="icon"">
+          <i class="fa fa-bars"></i>
+        </a>
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#menu">Menu</a></li>
+					<li><a href="#location">Location</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<!-- Home Section -->
+			<section id="home" class="home">
+				<div class="overlay">
+					<div class="overlay-content">
+						<img
+							src="assets/images/logo-only-cafe-kopi.png"
+							alt="Logo Only Cafe Kopi"
+							class="logo-only"
+						/>
+						<q class="tagline-1">
+							Kita tidak bisa menyamakan kopi dengan air tebu.
+							Sesempurna apa pun kopi yang kamu buat, kopi tetap
+							kopi, punya sisi pahit yang tak mungkin kamu
+							sembunyikan
+						</q>
+						<p class="tagline-2">
+							<b>Cafe Kopi</b> siap menyediakan kebutuhan kopi
+							Anda
+						</p>
+					</div>
+				</div>
+				<img
+					src="assets/images/bg-cafe-kopi.jpg"
+					alt="Cafe Kopi"
+					class="bg-image"
+				/>
+			</section>
+			<!-- Menu section -->
+			<section id="menu" class="menu">
+				<h1>Our Menu</h1>
+				<div class="container">
+					<div class="menu-container">
+						<h2>Drink</h2>
+						<div id="drink-catalog" class="catalog">
+							<!-- drink card -->
+						</div>
+						<h2>Food</h2>
+						<div id="food-catalog" class="catalog">
+							<!-- food card -->
+						</div>
+					</div>
+					<aside class="promo-container">
+						<h2>Promo</h2>
+						<div class="promo-card">
+							<h2>Special Promo</h2>
+							<img
+								src="assets/images/promo-menu.png"
+								alt="Promo"
+							/>
+							<p>
+								Get <b>20% discount</b> for Americano +
+								Spaghetti Carbonara combination
+							</p>
+							<p>
+								Only from <b>11 am to 1 pm</b> at <b>Friday</b>
+							</p>
+						</div>
+					</aside>
+				</div>
+			</section>
+			<!-- Location -->
+			<section id="location" class="location">
+				<h1>Location</h1>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d416.35406699506655!2d107.6152984301137!3d-6.88464430787629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e70106038629%3A0xbed4b895420dd04b!2sAyam%20Geprek%20Kegeprek%20Tubagus!5e0!3m2!1sen!2sid!4v1694169588121!5m2!1sen!2sid"
+					class="map"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+				></iframe>
+			</section>
+			<!-- Contact -->
+			<section id="contact" class="contact">
+				<h1>Our Contact</h1>
+				<div class="media">
+					<a href="https://www.facebook.com/">
+						<i class="fab fa-facebook media"></i>
+						<p>Cafe Kopi</p>
+					</a>
+					<a href="https://www.instagram.com/">
+						<i class="fab fa-instagram media"></i>
+						<p>@cafe_kopi.id</p>
+					</a>
+					<a href="https://twitter.com/">
+						<i class="fab fa-twitter media"></i>
+						<p>@cafe_kopi.id</p>
+					</a>
+					<a href="https://wa.me/">
+						<i class="fab fa-whatsapp media"></i>
+						<p>081234567890</p>
+					</a>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<p>
+				&copy; Copyright 2023,
+				<a
+					href="https://www.linkedin.com/in/haidar-ihzaulhaq-450118212/"
+				>
+					Haidar Ihzaulhaq.</a
+				>
+				All Rights Reserved
+			</p>
+		</footer>
+		<script src="assets/scripts/drink.js"></script>
+		<script src="assets/scripts/food.js"></script>
+		<script src="assets/scripts/script.js"></script>
+	</body>
+</html>

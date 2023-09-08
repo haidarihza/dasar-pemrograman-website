@@ -1,0 +1,58 @@
+const drinkMenu = [
+	{
+		id: 1,
+		name: "Americano",
+		desc: "Campari, sweet vermouth, soda water, citrus twist. Bittersweet and refreshing.",
+		price: "20000",
+		image: "assets/images/americano.jpg",
+	},
+	{
+		id: 2,
+		name: "Espresso",
+		desc: "A rich, concentrated coffee shot brewed to perfection, offering intense flavor and a quick caffeine kick.",
+		price: "15000",
+		image: "assets/images/espresso.jpg",
+	},
+	{
+		id: 3,
+		name: "Arabika",
+		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet, ipsum vitae semper semper.",
+		price: "20000",
+		image: "assets/images/arabika.jpg",
+	},
+	{
+		id: 4,
+		name: "Gayo Aceh",
+		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet, ipsum vitae semper semper.",
+		price: "20000",
+		image: "assets/images/gayo-aceh.jpg",
+	},
+	{
+		id: 5,
+		name: "Toraja",
+		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet, ipsum vitae semper semper.",
+		price: "20000",
+		image: "assets/images/gayo-aceh.jpg",
+	},
+	{
+		id: 6,
+		name: "Mandheling",
+		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet, ipsum vitae semper semper.",
+		price: "15000",
+		image: "assets/images/arabika.jpg",
+	},
+	{
+		id: 7,
+		name: "Robusta",
+		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet, ipsum vitae semper semper.",
+		price: "15000",
+		image: "assets/images/espresso.jpg",
+	},
+	{
+		id: 8,
+		name: "Kintamani",
+		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet, ipsum vitae semper semper.",
+		price: "20000",
+		image: "assets/images/americano.jpg",
+	},
+];
